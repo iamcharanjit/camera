@@ -19,7 +19,7 @@ app.use(bodyparser.json());
 app.use(express.static('public'));
 
 //mongoose.connect(config.database, {useNewUrlParser:true});
-mongodb:<dbuser>:<dbpassword>@ds161183.mlab.com:61183/amazonweb
+//mongodb:<charanjit>:<dbpassword>@ds161183.mlab.com:61183/amazonweb
 mongoose.connect('mongodb://amazonwebuser:password123@ds161183.mlab.com:61183/amazonweb', { useNewUrlParser:true});
 
 
